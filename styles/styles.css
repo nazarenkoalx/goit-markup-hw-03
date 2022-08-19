@@ -189,6 +189,8 @@ body {
 }
 
 .hero-button {
+  padding: 10px 32px;
+
   font-family: inherit;
   background-color: var(--accent-color);
   font-weight: 700;
