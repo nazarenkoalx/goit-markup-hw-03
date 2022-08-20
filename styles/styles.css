@@ -175,11 +175,16 @@ body {
 .hero {
   background-color: var(--hero-bg-color);
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 
+  width: 700px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -189,8 +194,17 @@ body {
 }
 
 .hero-button {
-  padding: 10px 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 216px;
+  height: 50px;
+
+  text-align: center;
   font-family: inherit;
   background-color: var(--accent-color);
   font-weight: 700;
@@ -280,8 +294,7 @@ body {
 }
 
 .member-description {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px;
 }
 
 .team-member {
@@ -311,6 +324,7 @@ body {
 }
 
 .footer-logo {
+  display: block;
   margin-bottom: 20px;
 
   font-family: var(--secondary-font);
@@ -321,7 +335,10 @@ body {
 }
 
 .footer-address {
-  margin-top: 20px;
+}
+
+.footer-address-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .address-list {
@@ -371,6 +388,8 @@ body {
   padding-bottom: 6px;
   padding-left: 25px;
   padding-right: 25px;
+
+  min-width: 63px;
 
   background-color: var(--filter-button-bg-color);
   font-family: inherit;
